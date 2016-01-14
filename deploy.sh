@@ -20,7 +20,6 @@ git checkout gitcafe-pages
 cd ../
 hugo -t=we -D
 cd public
-git checkout master
 git add -A
 git commit -m "$msg"
 git push --force -u gitcafe gitcafe-pages
