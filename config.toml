@@ -1,5 +1,5 @@
 baseurl = "http://xiaomingplus.com/"
-title = "We"
+title = "小明plus"
 Paginate = 20
 theme= "we"
 hasCJKLanguage = true
@@ -8,4 +8,4 @@ hasCJKLanguage = true
     identifier = "about"
     url = "/about"
 [params]
-  disqusShortname = "guobaoyang"
+  disqusShortname = "xiaomingplus"
