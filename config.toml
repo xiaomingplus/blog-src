@@ -1,3 +1,11 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "http://xiaomingplus.com/"
+title = "We"
+Paginate = 20
+theme= "we"
+hasCJKLanguage = true
+[[menu.main]]
+    name = "关于我"
+    identifier = "about"
+    url = "/about"
+[params]
+  disqusShortname = "guobaoyang"
