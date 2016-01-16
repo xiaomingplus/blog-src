@@ -10,4 +10,6 @@ type = "page"
 - 新浪微博: [@小明plus版本](http://weibo.com/xiaomingplus)
 - twitter: [@小明plus](https://twitter.com/xiaomingplus)
 - 知乎: [@小明plus](https://zhihu.com/people/xiaomingplus)
-- 订阅此博客: http://guobaoyang.com/index.xml
+- 订阅此博客: http://xiaomingplus.com/index.xml
+
+
