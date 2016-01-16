@@ -1,7 +1,8 @@
 +++
 date = "2016-01-16T18:21:09+08:00"
 title = "nodejs中exports和module.exports的区别"
-
+categories = ["全栈"]
+tags = ["nodejs"]
 +++
 
 **用一句话来说明就是，require方能看到的只有module.exports这个对象，它是看不到exports对象的，而我们在编写模块时用到的exports对象实际上只是对module.exports的引用**
