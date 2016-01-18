@@ -18,7 +18,7 @@ git push --force -u origin master
 
 git checkout gitcafe-pages
 cd ../
-hugo -t=we -D
+hugo -D
 cd public
 git add -A
 git commit -m "$msg"
