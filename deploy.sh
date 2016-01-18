@@ -5,7 +5,7 @@ if [ $# -eq 1 ]
 then msg="$1"
 fi
 
-hugo -t=we -D
+hugo -D
 git add -A
 git commit -m "$msg"
 git push -u origin master
