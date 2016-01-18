@@ -1,7 +1,8 @@
 baseurl = "http://xiaomingplus.com/"
 title = "小明plus"
 Paginate = 20
-theme= "we"
+themesDir = "/Users/yangguobao/project/static"
+theme= "hugo-theme-we"
 hasCJKLanguage = true
 [[menu.main]]
     name = "关于我"
