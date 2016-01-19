@@ -10,3 +10,4 @@ hasCJKLanguage = true
     url = "/about"
 [params]
   disqusShortname = "xiaomingplus"
+  tencentAnalyticsId = "54190530"
