@@ -16,13 +16,13 @@ git add -A
 git commit -m "$msg"
 git push --force -u origin master
 
-git checkout gitcafe-pages
+git checkout coding-pages
 cd ../
 hugo -D
 cd public
 git add -A
 git commit -m "$msg"
-git push --force -u gitcafe gitcafe-pages
+git push --force -u coding coding-pages
 git checkout master
 
 cd ../

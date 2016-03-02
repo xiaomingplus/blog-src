@@ -17,5 +17,6 @@ title = "计算机常见英文笔记"
 - render
 - issue
 - directory
+- commit
 
 
