@@ -33,10 +33,7 @@ js中有至少3种方法来创建对象（同时会生成所创建对象的原�
 ### 使用普通语法创建对象
 
 ```
-var obj1 = {
-  a:1,
-  b:2
-};
+var obj1 = {};
 
 //这个时候obj1的原型链:
 Object.getPrototypeOf(obj1) === Object.prototype;
