@@ -1,4 +1,9 @@
-# 学会fetch的用法
++++
+date = "2016-09-24T02:52:18+08:00"
+title = "学会fetch的用法"
+categories = ["前端"]
+tags = ["javascript","fetch"]
++++
 
 fetch是web提供的一个可以获取异步资源的api，目前还没有被所有浏览器支持，它提供的api返回的是Promise对象，所以你在了解这个api前首先得了解Promise的用法。参考[阮老师的文章](http://javascript.ruanyifeng.com/advanced/promise.html)
 
