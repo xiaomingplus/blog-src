@@ -23,23 +23,36 @@ javascript的运行机制可抽象为3部分，一部分是[执行栈]，一部�
 
 举例来讲：
 ```
+
 //0. 首先初始化本次执行栈,压入一个初始化的东西
 console.log('a1');//1. 把console.log和压入执行栈,执行后就弹出（console.log这种事情执行栈完全可以处理）
+
 var average = function(x,y,callback){
     callback((x+y)/2);
 }
+
 var start = function(){
+
     setTimeout(function(){
+
         console.log('time!');//13. 把console.log压入执行栈，执行后弹出
         //14. 到这里后，setTimeout的回调函数已执行完毕，弹出该函数
+
     },1000);//3. 把setTimeout压入执行栈,发现执行栈无法处理setTimeout函数，于是把setTimeout交给时间观察者，执行栈弹出setTimeout,时间观察者会在时间到了之后把回调函数加入任务队列。
+    
     average(3,5,function(result){
+
         console.log(result);//4.1 这里的回调函数不会加入任务队列，因为这种普通的回调执行栈自己完全可以处理，不需要观察者帮忙。这里会打印出4
+    
     })//4. 把average压入执行栈，执行完average函数后弹出average函数
+
     //5. 到这里后，start函数已执行完毕，弹出start函数
 }
+
 var end = function(){
+
     console.log('end!');//7. 把console.log压入执行栈，执行后弹出
+    
     //8. 到这里后，end函数已执行完毕，弹出end函数
 }
 
