@@ -1,6 +1,6 @@
 +++
 date = "2016-10-08T22:56:36+08:00"
-title = "how javascript runing"
+title = "javascript到底是如何运行的?"
 categories = ["全栈"]
 tags = ["javascript","runtime","event loop"]
 +++
