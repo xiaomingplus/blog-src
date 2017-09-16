@@ -46,7 +46,7 @@ categories = ["笔记"]
     - this:搜索weibo,选择```New post by you```
     - that:搜索webhook,选择```Make a web request```,URL填写刚刚第2步里面拿到的```https://hook.integromat.com/xxx```这样的一个url，Method选择```POST```,Content Type选择```application/x-www-form-urlencode```,Body填写```text={{Text}}&image={{PhotoURL}}```，点击```Create Action```，点击Finish
 
-ok,到这里就全部搞定了！其实花费这些时间去搞这些，归根结底还是因为国内的这些服务接口做的太烂，用户不得不绕一个大圈去实现一些很简单的东西。这些厂商去看看telegram,stack,github的API估计会找个洞钻下去吧。
+ok,到这里就全部搞定了！如果要同步到其他平台，只需要在IFTTT操作就可以了，步骤类似上面操作步骤里的第一步即可。其实花费这些时间去搞这些，归根结底还是因为国内的这些服务接口做的太烂，用户不得不绕一个大圈去实现一些很简单的东西。这些厂商去看看telegram,stack,github的API估计会找个洞钻下去吧。
 
 本篇文章只介绍了关于同步微博这一个应用，其实IFTTT,Zapier,integromat这些服务还可以实现更多，更牛逼的应用，比如当你回到家，自动开灯开空调，当你在微信、微博、浏览器中看到好文章准备稍后阅读时，自动在pocket里添加这篇文章并在todolist里创建一个待办任务，甚至当xxx发生的时候，自动往数据库添加一条记录。等等等等。而这一切都不需要你编程实现。
 
