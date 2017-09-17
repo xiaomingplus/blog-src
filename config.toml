@@ -9,6 +9,5 @@ hasCJKLanguage = true
     identifier = "about"
     url = "/about"
 [params]
-  disqusShortname = "xiaomingplus"
   baiduAnalyticsId = "4f195dd0fb7220c00608390aaf9171c5"
   showCodingPageSupport = true
