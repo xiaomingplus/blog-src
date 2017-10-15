@@ -1,4 +1,4 @@
-baseurl = "http://xiaomingplus.com/"
+baseurl = "https://xiaomingplus.com/"
 title = "小明plus"
 Paginate = 20
 themesDir = "/Users/yangguobao/project/static"
