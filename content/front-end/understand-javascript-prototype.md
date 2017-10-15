@@ -3,7 +3,6 @@ date = "2016-07-24T18:50:34+08:00"
 title = "理解javascript中的原型"
 categories = ["前端"]
 tags = ["javascript","prototype","原型"]
-
 +++
 
 ## 概述

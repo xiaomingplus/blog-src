@@ -2,12 +2,20 @@ baseurl = "http://xiaomingplus.com/"
 title = "小明plus"
 Paginate = 20
 themesDir = "/Users/yangguobao/project/static"
-theme= "hugo-theme-we"
+theme = "we"
 hasCJKLanguage = true
 [[menu.main]]
     name = "关于我"
     identifier = "about"
     url = "/about"
 [params]
-  baiduAnalyticsId = "4f195dd0fb7220c00608390aaf9171c5"
-  showCodingPageSupport = false
+    baiduAnalyticsId = "4f195dd0fb7220c00608390aaf9171c5"
+    showCodingPageSupport = false
+    Subtitle = "技术相关"
+    AuthorName = "xiaomingplus"
+    GitHubUser = "xiaomingplus"
+    gitalkClientID = "2d89547b83bfd6e916a4"
+    gitalkClientSecret = "24e361842fe0b049d71818ee8866e20d567491d6"
+    gitalkRepo = "xiaomingplus.github.io"
+    gitalkOwner = "xiaomingplus"
+    gitalkAdmin = ["xiaomingplus"]
