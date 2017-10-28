@@ -1,7 +1,6 @@
 +++
 title = "如何为老板节省几个亿之graphql介绍"
 date =  2017-10-28T12:54:46+08:00
-draft = true
 categories = ["全栈"]
 tags = ["javascript","graphql","restful"]
 +++
@@ -91,7 +90,7 @@ github官方提供了github的graph api的在线调试工具，地址是<https:/
 根节点下分为2大类，一类是Query类（主要是查询相关的，相当于get），一类是Mutation类（主要是非幂等操作，post,put,delete)。
 
 下图是我写的一个微博类应用的demo，图是写完服务后用工具[voyager](https://github.com/APIs-guru/graphql-voyager)生成的这个graph服务的数据结构图：
-![](http://ww1.sinaimg.cn/large/d9f8fd81gy1fkxverr6jcj20zy05sq5n.jpg)
+![](http://ww1.sinaimg.cn/large/d9f8fd81gy1fkxvghvakkj21yg11o4cu.jpg)
 注：其中类型后面的感叹号表示这个属性必须提供。
 
 GraphQL是一个**强类型**的协议，服务端在定义数据的时候必须指定每一个入参，出参的类型以及是否可选，这样的话，框架就可以自动帮我们去处理参数类型校验的问题了。GraphQL 的类型系统分为标量类型（Scalar Types，标量类型，也称为简单类型）和其他高级数据类型（复合类型），标量类型即可以表示最细粒度数据结构的数据类型，可以和 JavaScript的原始类型对应。
